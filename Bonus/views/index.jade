@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	if tripImage
+		img(src="#{tripImage}", alt="")
+	h1=locationName
+	p=locationDescrip
+	
+	if prevPort
+		a(href="/place/#{prevPort}") Previous
+
+	if nextPort 
+		a(href="/place/#{nextPort}") Next 
+	else 
+		a(href="/place/Seville") Go to Beginning
+	
+	
+	
+
