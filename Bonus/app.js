@@ -60,7 +60,7 @@ app.get('/next', function(req, res){
 
   res.jsonp({ location: currentLocation, 
               nextLocation: nextLocation });
-
+  
 })
 
 

@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	.location(style='top: #{top}; left: #{left}')
+		img(src='/img/x.png')
+		label #{place.toUpperCase()}
+		p #{landed}
+		h6 #{description}
+	if prevPort
+		a(href="/voyage/#{prevPort}").prev
+			img(src='/img/Prev.jpg')
+			p PREV
+
+	if nextPort
+		a(href='/voyage/#{nextPort}').next
+			img(src='/img/Next.jpg')
+			p NEXT
+
+	else
+		a(href="/voyage/Seville") Go to Beginning

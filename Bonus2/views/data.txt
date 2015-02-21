@@ -1,0 +1,22 @@
+//- doctype html
+//- html(lang='en')
+//- 	head
+//- 		meta(charset="utf-8")
+//- 		title Magellan's Voyage
+//- 		link(href='/main.css', rel='stylesheet')
+
+//- 	body
+//- 		.map-container
+//- 			.map
+//- 				img(src="http://upload.wikimedia.org/wikipedia/commons/e/e2/OrteliusWorldMap1570.jpg")
+//- 					<img id="Image-Maps-Com-image-maps-2015-02-20-141607" src="http://upload.wikimedia.org/wikipedia/commons/e/e2/OrteliusWorldMap1570.jpg" border="0" width="5816" height="3961" orgWidth="5816" orgHeight="3961" usemap="#image-maps-2015-02-20-141607" alt="" />
+//- 					<map name="image-maps-2015-02-20-141607" id="ImageMapsCom-image-maps-2015-02-20-141607">
+//- 					<area  alt="" title="" href="http://www.image-maps.com/" shape="rect" coords="4517,3438,5037,3934" style="outline:none;" target="_self" alt="Previous"   />
+//- 					<area  alt="" title="" href="http://www.image-maps.com/" shape="rect" coords="784,3468,1264,3937" style="outline:none;" target="_self" alt="Next"   />
+//- 					<area shape="rect" coords="5814,3959,5816,3961" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
+//- 					</map>
+//- 			h1 Magellan's Voyage
+
+	
+
+//- 		block content

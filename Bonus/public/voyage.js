@@ -1,4 +1,5 @@
 var trip = [
+
 {
   name: "Seville",
   description: "Seville was founded as the Roman city of Hispalis, and was known",
@@ -33,7 +34,7 @@ var trip = [
 {
   name: "Guam",
   description: "test description guam",
-  prevPort : "Straight of Magellan",
+  prevPort : "Strait of Magellan",
   nextPort : "Philippines",
   image : "http://www.pacsafe.com/blog/wp-content/uploads/2013/06/Guam-Big-city-on-a-small-Island.jpg"
 },
@@ -45,7 +46,6 @@ var trip = [
   nextPort : "",
   image : "http://demo1.globescope.com//fpss/slideshows/myslideshow1/images/photo4.jpg"
 }
-
 
 ];
 
